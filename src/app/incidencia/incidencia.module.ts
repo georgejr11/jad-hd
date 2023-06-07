@@ -11,6 +11,9 @@ import { BrowserModule } from '@angular/platform-browser';
     AddIncidenciaComponent,
     ListIncidenciaComponent
   ],
+  exports:[
+    
+  ],
   imports: [
     BrowserModule,
     CommonModule
