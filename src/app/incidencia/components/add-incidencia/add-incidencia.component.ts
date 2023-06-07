@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-add-incidencia',
+  selector: 'add-incidencia',
   templateUrl: './add-incidencia.component.html',
   styleUrls: ['./add-incidencia.component.css']
 })

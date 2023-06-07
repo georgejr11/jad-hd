@@ -3,16 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UsuarioComponent } from './add-user/usuario/usuario.component';
-import { UserComponent } from './add-user/user/user.component';
-import { AddUserComponent } from './add-user/add-user.component';
+import { AddIncidenciaComponent } from './incidencia/components/add-incidencia/add-incidencia.component';
+import { ListIncidenciaComponent } from './incidencia/components/list-incidencia/list-incidencia.component';
+import { AddUserComponent } from './user/components/add-user/add-user.component';
+import { ListUserComponent } from './user/components/list-user/list-user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UsuarioComponent,
-    UserComponent,
-    AddUserComponent
+    AddUserComponent,
+    ListUserComponent, 
+    AddIncidenciaComponent,
+    ListIncidenciaComponent
   ],
   imports: [
     BrowserModule,
